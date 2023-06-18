@@ -1,0 +1,46 @@
+@media only screen and (max-width: 767px) {
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Cookie&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    background-color: #090641;
+}
+
+.my-name {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color:  #f4eaf2;
+    margin-top: 1em;
+    
+}
+
+.my-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #f4eaf2;
+    margin-top: -1em;
+}
+
+.my-statement {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #989fa1;
+    margin-top: 1em;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .my-name {
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+    }
+}
