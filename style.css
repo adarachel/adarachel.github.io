@@ -391,6 +391,23 @@
     border-radius: 4px;
   }
 
+  .button-container-visionary button {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 3px;
+    cursor: pointer;
+  }
+
+  .section-four .visionary {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:  white;
+    margin-left: 0.4em;
+    margin-right: 0.7em;
+  }
+
   .html-button {
     background-color: #E44D26;
   }
