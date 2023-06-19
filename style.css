@@ -1,6 +1,6 @@
-@media only screen and (max-width: 767px) {
-
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Cookie&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@media only screen and (min-width: 1024px) {
+    @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Cookie&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Cookie&family=Inter:wght@400;500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 * {
     background-color: #090641;
@@ -9,38 +9,489 @@
 .my-name {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 29px;
     color:  #f4eaf2;
     margin-top: 1em;
-    
+    margin-left: 0.4em;
 }
 
 .my-title {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
     color: #f4eaf2;
     margin-top: -1em;
+    margin-left: 0.4em;
 }
 
 .my-statement {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 17px;
     color: #989fa1;
     margin-top: 1em;
+    margin-left: 0.4em;
+    margin-right: 0.6em;
 }
 
 .social-icons a {
     margin-right: 10px;
     text-decoration: none;
+    margin-left: 0.4em;
+    cursor: pointer;
 }
+
+.about-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color:  #f4eaf2;
+    margin-left: 0.4em;
+}
+
+.section-two p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:  #989fa1;
+    margin-left: 0.4em;
+    margin-right: 0.7em;
+}
+
+.highlight {
+    color:  #f4eaf2;
+}
+
+.skills-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color:  #f4eaf2;
+    margin-left: 1em;
+}
+
+.section-three li {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 16px;
+    color:  #989fa1;
+    margin-left: 0.4em;
+    margin-right: 0.7em;
+}
+
+.projects-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color:  #f4eaf2;
+    margin-left: 0.4em;
+}
+
+.section-four a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color:  #f4eaf2;
+    margin-left: 0.4em;
+}
+
+.section-four .highlight {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 16px;
+    color:  #989fa1;
 
 }
 
-@media only screen and (min-width: 1024px) {
-    .my-name {
-        font-family: 'Inter', sans-serif;
-        font-weight: 800;
-    }
+#visit-site, #visit-github {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 16px;
+    color:  #70ecf1;
+    cursor: pointer;
+}
+
+.section-four p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:  #989fa1;
+    margin-left: 0.4em;
+    margin-right: 0.7em;
+}
+
+.button-container {
+    display: flex;
+  }
+  
+  .button-container button {
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 3px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .html-button {
+    background-color: #E44D26;
+  }
+  
+  .css-button {
+    background-color: #2965F1;
+  }
+  
+  .js-button {
+    background-color: #F0DB4F;
+  }
+  
+  .bootstrap-button {
+    background-color: #7952B3;
+  }
+  
+  .rails-button {
+    background-color: #CC0000;
+  }
+
+#project-archive {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #f4eaf2;
+    margin-left: 0.2em;
+    margin-right: 0.7em;
+}
+
+.writing-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color:  #f4eaf2;
+    margin-left: 0.4em;
+}
+
+.section-five .highlight {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 16px;
+    color:  #989fa1;
+    margin-left: 0.2em;
+    margin-right: 0.7em;
+}
+
+.article-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color:  #f4eaf2;
+    margin-top: -0.2em;
+    margin-left: 0.2em;
+    margin-right: 0.7em;
+}
+
+#article-title-link {
+    color:  #f4eaf2;
+}
+
+.email-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #989fa1;
+    margin-left: 0.4em;
+}
+
+.email-button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #f4eaf2;
+    text-decoration: underline;
+  }
+
+.testimonial-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color:  #f4eaf2;
+    margin-left: 0.4em;
+}  
+
+.testimonial {
+    margin-left: 0.2em;
+    margin-right: 0.7em;
+}
+
+.testimonial-name {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color:  #989fa1;
+    text-align: end;
+}
+
+.testimonial-content {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #f4eaf2;
+}
+  }
+
+
+
+@media only screen and (max-width: 767px) {
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Cookie&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Cookie&family=Inter:wght@400;500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    background-color: #090641;
+}
+
+.my-name {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 29px;
+    color:  #f4eaf2;
+    margin-top: 1em;
+    margin-left: 0.4em;
+}
+
+.my-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #f4eaf2;
+    margin-top: -1em;
+    margin-left: 0.4em;
+}
+
+.my-statement {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #989fa1;
+    margin-top: 1em;
+    margin-left: 0.4em;
+    margin-right: 0.6em;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    text-decoration: none;
+    margin-left: 0.4em;
+    cursor: pointer;
+}
+
+.about-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color:  #f4eaf2;
+    margin-left: 0.4em;
+}
+
+.section-two p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:  #989fa1;
+    margin-left: 0.4em;
+    margin-right: 0.7em;
+}
+
+.highlight {
+    color:  #f4eaf2;
+}
+
+.skills-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color:  #f4eaf2;
+    margin-left: 1em;
+}
+
+.section-three li {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 16px;
+    color:  #989fa1;
+    margin-left: 0.4em;
+    margin-right: 0.7em;
+}
+
+.projects-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color:  #f4eaf2;
+    margin-left: 0.4em;
+}
+
+.section-four a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color:  #f4eaf2;
+    margin-left: 0.4em;
+}
+
+.section-four .highlight {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 16px;
+    color:  #989fa1;
+
+}
+
+#visit-site, #visit-github {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 16px;
+    color:  #70ecf1;
+    cursor: pointer;
+}
+
+.section-four p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:  #989fa1;
+    margin-left: 0.4em;
+    margin-right: 0.7em;
+}
+
+.button-container {
+    display: flex;
+  }
+  
+  .button-container button {
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 3px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .html-button {
+    background-color: #E44D26;
+  }
+  
+  .css-button {
+    background-color: #2965F1;
+  }
+  
+  .js-button {
+    background-color: #F0DB4F;
+  }
+  
+  .bootstrap-button {
+    background-color: #7952B3;
+  }
+  
+  .rails-button {
+    background-color: #CC0000;
+  }
+
+#project-archive {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #f4eaf2;
+    margin-left: 0.2em;
+    margin-right: 0.7em;
+}
+
+.writing-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color:  #f4eaf2;
+    margin-left: 0.4em;
+}
+
+.section-five .highlight {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 16px;
+    color:  #989fa1;
+    margin-left: 0.2em;
+    margin-right: 0.7em;
+}
+
+.article-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color:  #f4eaf2;
+    margin-top: -0.2em;
+    margin-left: 0.2em;
+    margin-right: 0.7em;
+}
+
+#article-title-link {
+    color:  #f4eaf2;
+}
+
+.email-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #989fa1;
+    margin-left: 0.4em;
+}
+
+.email-button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #f4eaf2;
+    text-decoration: underline;
+  }
+
+.testimonial-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color:  #f4eaf2;
+    margin-left: 0.4em;
+}  
+
+.testimonial {
+    margin-left: 0.2em;
+    margin-right: 0.7em;
+}
+
+.testimonial-name {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color:  #989fa1;
+    text-align: end;
+}
+
+.testimonial-content {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #f4eaf2;
+}
+    
 }
